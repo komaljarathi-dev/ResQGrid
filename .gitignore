@@ -2,19 +2,19 @@
 # Ignore everything by default
 *
 
-# Keep root configuration and documentation
+# Keep root files
 !.gitignore
 !README.md
 
-# Allow the QNX project path
+# Allow QNX project path
 !qnx/
-!qnx/recoveryhack/
+!qnx/recoveryehack/
 
-# Ignore all QNX project files by default
-qnx/recoveryhack/*
+# Ignore QNX files by default
+qnx/recoveryehack/*
 
 # Allow only the C source and Makefile
-!qnx/recoveryhack/src/
-qnx/recoveryhack/src/*
-!qnx/recoveryhack/src/recoveryhack.c
-!qnx/recoveryhack/Makefile
+!qnx/recoveryehack/src/
+qnx/recoveryehack/src/*
+!qnx/recoveryehack/src/recoveryehack.c
+!qnx/recoveryehack/Makefile
