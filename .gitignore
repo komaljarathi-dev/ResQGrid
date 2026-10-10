@@ -2,19 +2,25 @@
 # Ignore everything by default
 *
 
-# Keep root files
+# Keep root documentation and Git settings
 !.gitignore
 !README.md
 
-# Allow QNX project path
+# Allow the QNX project folder
 !qnx/
 !qnx/recoveryehack/
-
-# Ignore QNX files by default
 qnx/recoveryehack/*
 
-# Allow only the C source and Makefile
+# Keep only the QNX source and Makefile
 !qnx/recoveryehack/src/
 qnx/recoveryehack/src/*
 !qnx/recoveryehack/src/recoveryehack.c
 !qnx/recoveryehack/Makefile
+
+# Allow the images folder
+!images/
+!images/**
+
+# Allow ESP8266 folder for selective additions later
+!esp8266/
+!esp8266/**
